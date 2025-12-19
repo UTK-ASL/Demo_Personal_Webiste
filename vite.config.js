@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? '/Demo_Personal_Webiste/' : '/',
+  base: mode === 'production' ? '/Demo_Personal_Webiste/' : '/',
   build: {
     outDir: 'docs',
     emptyOutDir: true
@@ -16,4 +16,4 @@ export default defineConfig({
       usePolling: true
     }
   }
-})
+}))

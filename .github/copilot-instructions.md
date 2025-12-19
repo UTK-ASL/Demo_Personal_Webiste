@@ -87,7 +87,7 @@ docker-compose exec web npm install <pkg>   # Add new package
    ```
 2. Add to package.json:
    ```json
-   "homepage": "https://xli.github.io/Demo_Personal_Webiste",
+   "homepage": "https://utk-asl.github.io/Demo_Personal_Webiste",
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d dist"

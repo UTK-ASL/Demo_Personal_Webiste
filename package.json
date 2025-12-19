@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://xli.github.io/Demo_Personal_Webiste",
+  "homepage": "https://utk-asl.github.io/Demo_Personal_Webiste",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
